@@ -18,3 +18,22 @@
   .label-link {
     text-decoration: none;
   }
+
+  .nav-logo {
+    width: auto;
+    height: 100px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.349);
+    border-radius: 25px;
+    
+  }
+
+  :hover.nav-font {
+    background-color: rgba(203, 203, 212, 0.384);
+    box-shadow: 0 7px 15px 0 rgba(221, 208, 132, 0.421);
+    transition: 0.5s;
+  }
+  .nav-font {
+    font-size: 1.5em;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.349);
+    border-radius: 50px;
+  }
