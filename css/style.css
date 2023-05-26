@@ -22,10 +22,19 @@
   .nav-logo {
     width: auto;
     height: 100px;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.349);
-    border-radius: 25px;
-    
-  }
+    box-shadow: 5px 10px 20px 5px rgba(212, 203, 203, 0.53);
+    border-radius: 30px;
+    transition: 4s;
+    }
+
+:hover.nav-logo {
+  width: auto;
+  height: 100px;
+  box-shadow: 25px 50px 100px 25px rgba(212, 203, 203, 0.693);
+  border-radius: 50px;
+  transition: 1s;
+}
+
 
   :hover.nav-font {
     background-color: rgba(203, 203, 212, 0.384);
